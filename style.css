@@ -7,7 +7,7 @@ body{
 }
 header{
     background-color: #594545;
-    height: 3.85em;
+    height: auto;
 }
 header h1{
     text-align: center;
@@ -26,8 +26,32 @@ nav a{
     color: white;
     text-decoration: none;
     font-weight: 800;
-    margin-right: .625rem;
+    margin-right: .625em;
 }
 nav a:hover{
     border-bottom: 3px solid brown;
+}
+.contenido{
+    position: relative;
+    width: 940px;
+    height: auto;
+    left: 9.375rem;
+    background-color: green;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.caja-imagen{
+    background-color: blue;
+    width: 35%;
+    height: 300px;
+    line-height: 120px;
+    text-align: center;
+}
+.caja{
+    background-color: yellow;
+    width: 65%;
+    height: 300px;
+    line-height: 120px;
+    text-align: center;
 }
