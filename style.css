@@ -65,3 +65,6 @@ nav a:hover{
 .caja:nth-child(odd){
     background-color: #ECD6C0;
 }
+.contacto{
+    text-align: center;
+}
