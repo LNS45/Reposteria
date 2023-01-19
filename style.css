@@ -68,3 +68,26 @@ nav a:hover{
 .contacto{
     text-align: center;
 }
+.numero{
+    background-color: red;
+    width: 800px;
+    height: 80px;
+    margin: 20px 20%;
+    line-height: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 15);
+}
+.redes{
+    background-color: blue;
+    width: 800px;
+    height: 80px;
+    margin: 20px 20%;
+    line-height: 35px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 15);
+
+}
+.redes li{
+    display: inline-block;
+    margin-left: 20px;
+}
