@@ -71,11 +71,14 @@ nav a:hover{
 .numero{
     background-color: #D8AF97;
     width: 800px;
-    height: 80px;
+    height: 100px;
     margin: 20px 20%;
     line-height: 35px;
     border-radius: 20px;
     box-shadow: 0 0 10px 2px rgba(0, 0, 0, 15);
+}
+.numero img{
+    width: 25px;
 }
 .redes{
     background-color: #D8AF97;
@@ -89,7 +92,21 @@ nav a:hover{
 }
 .redes li{
     display: inline-block;
-    margin-left: 20px;
+    margin-left: 5px;
+}
+.redes a{
+    text-decoration: none;
+    color: black;
+    transition: 4s;
+}
+.redicon:hover{
+    text-decoration: underline;
+    
+}
+.redes img{
+    width: 20px;
+    margin-left: 5px;
+    vertical-align:middle;
 }
 footer{
     margin-top: 30px;
