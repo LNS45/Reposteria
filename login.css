@@ -1,0 +1,87 @@
+/*Paleta de Colores*/
+/*#B9FFF8,#6FEDD6,#FF9551,#FF4A4A*/
+
+body{
+    background: #B9FFF8;
+}
+.caja{
+    position: relative;
+    width: 609px;
+    height: 650px;
+    top: 187px;
+    left: 415px;
+    background-color: rgba(255, 74, 74, 1);
+    box-shadow: 0px 0px 30px 14px rgba(255, 74, 74, 0.6);
+    border-radius: 72px;
+}
+.titulo{
+    position: relative;
+    width: 380px;
+    height: 107px;
+    left: 122px;
+    top: 55px;
+    font-family: 'Fenix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 0.95;
+    text-shadow: 0px 4px 5px rgba(0, 0, 0, 0.35);
+}
+#icono{
+    position: absolute;
+    width: 56px;
+    height: 65px;
+    left: 254px;
+    top: 79px;
+}
+#circulo-decoracion{
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: 39px;
+    top: -150px;
+    background: #B9FFF8;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    vertical-align: top;
+}
+.texto{
+    position: absolute;
+    width: 185px;
+    height: 43px;
+    left: 25px;
+    font-family: 'Fenix';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: inline;
+}
+#user{
+    top: 303px;
+}
+#password{
+    top: 395px;
+}
+.campo{
+    position: absolute;
+    width: 354px;
+    height: 43px;
+    left: 225px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.35);
+    border-radius: 40px;
+    text-align: center;
+    font-size: 20px;
+}
+#in-user{
+    top: 330px;
+}
+#in-pass{
+    top: 420px;
+}
